@@ -7,20 +7,26 @@
     <title>goit-js-hw-11</title>
     
     <script type="module" crossorigin src="/vanilla-app-template/commonHelpers.js"></script>
-    <link rel="stylesheet" href="/vanilla-app-template/assets/index-10c40100.css">
+    <link rel="modulepreload" crossorigin href="/vanilla-app-template/assets/vendor-8c59ed88.js">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/vendor-1cd1f9d9.css">
+    <link rel="stylesheet" href="/vanilla-app-template/assets/index-2b9ff98e.css">
   </head>
   <body>
 <section>
-  <form class="search-form">
-    <input type="text" class="search-input" name="searchField" placeholder="Search images..." />
-    <button type="submit" class="search-btn">Search</button>
-  </form>
-  <span class="loader visually-hidden"></span>
-</section>
-<section>
-  <ul class="gallery"></ul>
-</section>
-
+      <form class="search-form">
+        <input
+          type="text"
+          class="search-input"
+          name="searchField"
+          placeholder="Search images..."
+        />
+        <button type="submit" class="search-btn">Search</button>
+      </form>
+      <span class="loader visually-hidden"></span>
+    </section>
+  <section>
+      <ul class="gallery"></ul>
+  </section>
     
   </body>
 </html>
